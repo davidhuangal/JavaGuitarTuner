@@ -1,0 +1,13 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-color: #d7ccc8;
+    -fx-font-family: Helvetica;
+}
+
+.button {
+    -fx-background-color: #fffffb;
+    -fx-opacity: 0.8;
+}

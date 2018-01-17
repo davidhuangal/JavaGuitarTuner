@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="500.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guitartuner.ElectricController">
+   <children>
+      <HBox alignment="CENTER" layoutX="16.0" layoutY="286.0" prefHeight="100.0" prefWidth="468.0" spacing="20.0">
+         <children>
+            <Button fx:id="eButton1" mnemonicParsing="false" onAction="#handlePlayLowE" prefHeight="27.0" prefWidth="50.0" text="E" />
+            <Button fx:id="aButton" mnemonicParsing="false" onAction="#handlePlayA" prefWidth="50.0" text="A" />
+            <Button fx:id="dButton" mnemonicParsing="false" onAction="#handlePlayD" prefWidth="50.0" text="D" />
+            <Button fx:id="gButton" mnemonicParsing="false" onAction="#handlePlayG" prefWidth="50.0" text="G" />
+            <Button fx:id="bButton" mnemonicParsing="false" onAction="#handlePlayB" prefWidth="50.0" text="B" />
+            <Button fx:id="eButton2" mnemonicParsing="false" onAction="#handlePlayHighE" prefWidth="50.0" text="E" />
+         </children>
+      </HBox>
+      <Button fx:id="homeButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleGoToHomePage" text="Home" />
+   </children>
+   <stylesheets>
+      <URL value="@tuner.css" />
+   </stylesheets>
+</AnchorPane>

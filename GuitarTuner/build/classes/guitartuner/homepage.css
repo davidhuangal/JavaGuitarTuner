@@ -1,0 +1,35 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-color: #d7ccc8;
+    -fx-font-family: Helvetica;
+}
+
+#titleBox {
+    -fx-background-color: #a69b97;
+    -fx-font-size: 25px;
+}
+
+#styleChooser {
+    -fx-font-size: 20px;
+}
+
+#electricButton {
+    -fx-background-color: #fffffb;
+    -fx-opacity: 0.8;
+}
+
+#acousticButton {
+    -fx-background-color: #fffffb;
+    -fx-opacity: 0.8;
+}
+
+#acousticImageView {
+    -fx-opacity: 0.8;
+}
+
+#electricImageView {
+    -fx-opacity: 0.8;
+}
